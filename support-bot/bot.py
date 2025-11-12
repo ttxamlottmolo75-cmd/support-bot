@@ -7,10 +7,9 @@ from telegram import Update
 from telegram.ext import (
     ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 )
-from telegram.error import Forbidden, BadRequest
+from telegram.error import Forbidden
 
 # ============ НАСТРОЙКИ ============
-import os
 TOKEN = os.getenv("TOKEN")
 FORUM_CHAT_ID = int(os.getenv("FORUM_CHAT_ID"))
 STATE_FILE = "bot_state.pkl"
@@ -145,10 +144,11 @@ def main():
     app.add_handler(MessageHandler(filters.Chat(FORUM_CHAT_ID) & filters.TEXT, reply_to_user))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
-    app.job_queue.run_repeating(clear_inactive_topics, interval=86400, first=60)
+    # 🔧 исправленная строка job_queue
+    app.job_queue.run_repeating(callback=clear_inactive_topics, interval=86400, first=60)
 
     logging.info("🚀 Бот запущен и слушает сообщения.")
-    app.run_polling(close_loop=False)
+    app.run_polling()
 
 if __name__ == "__main__":
     while True:
