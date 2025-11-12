@@ -10,8 +10,9 @@ from telegram.ext import (
 from telegram.error import Forbidden, BadRequest
 
 # ============ НАСТРОЙКИ ============
-TOKEN = "8592223017:AAHeeysiOyc0NW_5rVwDiA1Byhzg4uuR_yE"
-FORUM_CHAT_ID = -1003363764646
+import os
+TOKEN = os.getenv("TOKEN")
+FORUM_CHAT_ID = int(os.getenv("FORUM_CHAT_ID"))
 STATE_FILE = "bot_state.pkl"
 CLEAR_AFTER_DAYS = 7
 # ==================================
