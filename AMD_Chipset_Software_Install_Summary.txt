@@ -1,0 +1,22 @@
+AMD Chipset Software Install Summary
+
+Name             : AMD Processor Power Management Support
+Version          : 8.0.0.13
+Install          : Success
+
+Name             : AMD I2C Driver
+Version          : 1.2.0.124
+Install          : Success
+
+Name             : AMD GPIO Driver
+Version          : 2.2.0.130
+Install          : Success
+
+Name             : AMD PSP Driver
+Version          : 5.26.0.0
+Install          : Success
+
+Name             : AMD SMBus Driver
+Version          : 5.12.0.38
+Install          : Success
+

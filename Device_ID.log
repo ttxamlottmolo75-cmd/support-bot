@@ -1,0 +1,984 @@
+6/5/2024 19:46 ::  OS Version is : 10.0.22621
+6/5/2024 19:46 :: The registry key does not exist.Product not yet installed.
+6/5/2024 19:46 :: SetUninstall value is : 0: Product Installtion.
+6/5/2024 19:46 :: Setting property SETPSHED since OS WIN10 with Windows build number greater than or equal to the recomended value of 17110.
+6/5/2024 19:46 :: Setting property SETEMBSMBUS since OS WIN10 and 64 bit
+6/5/2024 19:46 :: Setting property SETWDT since OS WIN10 and 64 bit
+6/5/2024 19:46 :: Enlisting drivers under USB node in Device Manager
+6/5/2024 19:46 :: ***********************************************************
+6/5/2024 19:46 :: Device ID: USB\ROOT_HUB30\5&13600380&0&0
+6/5/2024 19:46 :: Device ID: USB\ROOT_HUB30\5&FA19EDD&0&0
+6/5/2024 19:46 :: Device ID: USB\VID_174F&PID_2459\0001
+6/5/2024 19:46 :: Enlisting drivers under 'Storage Controllers' node in Device Manager
+6/5/2024 19:46 :: **************************************************************************
+6/5/2024 19:46 :: Device ID: PCI\VEN_1CC4&DEV_6201&SUBSYS_1CC41CC4&REV_03\4&18C11EE3&0&0014
+6/5/2024 19:46 :: Checking or RAID Device ID as per new installer .
+6/5/2024 19:46 :: Device ID: ROOT\SPACEPORT\0000
+6/5/2024 19:46 :: Checking or RAID Device ID as per new installer .
+6/5/2024 19:46 :: Enlisting drivers under 'system devices' node(PNP) in Device Manager
+6/5/2024 19:46 :: **************************************************************************
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000111E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EFCFDF_C00000000
+6/5/2024 19:46 :: Device ID: USB\VID_046D&PID_C077\6&578DBB&0&1
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C02\1
+6/5/2024 19:46 :: Device ID: SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000111E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&4D1F20D7CA15_C00000000
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C09\1
+6/5/2024 19:46 :: Device ID: STORAGE\VOLUME\{1D601593-A58C-11ED-AE66-806E6F6E6963}#0000000006500000
+6/5/2024 19:46 :: Device ID: ACPI\LHK2019\0
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C0A\1
+6/5/2024 19:46 :: Device ID: ACP\DEVTYPE_0001&DEVREV_0000&VEN_1022&DEV_15E2&SUBSYS_17AA3829&REV_01\5&3597C09C&0&01
+6/5/2024 19:46 :: Device ID: SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3APOSVC&6&D3DCBC8&0
+6/5/2024 19:46 :: Device ID: SWD\PRINTENUM\PRINTQUEUES
+6/5/2024 19:46 :: Device ID: PCI\VEN_1CC4&DEV_6201&SUBSYS_1CC41CC4&REV_03\4&18C11EE3&0&0014
+6/5/2024 19:46 :: Device ID: PCI\VEN_1002&DEV_1637&SUBSYS_380217AA&REV_00\4&20C24D55&0&0141
+6/5/2024 19:46 :: Device ID: PCI\VEN_1002&DEV_164C&SUBSYS_3F9517AA&REV_C3\4&20C24D55&0&0041
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_144C&SUBSYS_00000000&REV_00\3&2411E6FE&0&C4
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1639&SUBSYS_16391022&REV_00\4&20C24D55&0&0341
+6/5/2024 19:46 :: Device ID: SWD\MMDEVAPI\{0.0.1.00000000}.{CF006C02-7F93-49F3-B736-5C70C202350A}
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1639&SUBSYS_16391022&REV_00\4&20C24D55&0&0441
+6/5/2024 19:46 :: Device ID: ROOT\VOLMGR\0000
+6/5/2024 19:46 :: Device ID: HID\MSFT0001&COL02\4&224DB979&0&0001
+6/5/2024 19:46 :: Device ID: BTH\MS_BTHLE\7&2B318D69&0&3
+6/5/2024 19:46 :: Device ID: ACPI\MSFT0101\2&DABA3FF&0
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_790E&SUBSYS_384117AA&REV_51\3&2411E6FE&0&A3
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&20160318B30A_C00000000
+6/5/2024 19:46 :: Device ID: SWD\MSRRAS\MS_PPPOEMINIPORT
+6/5/2024 19:46 :: Device ID: USB\VID_174F&PID_2459&MI_02\7&6C047C5&0&0002
+6/5/2024 19:46 :: Device ID: ROOT\BASICDISPLAY\0000
+6/5/2024 19:46 :: Device ID: BTHHFENUM\BTHHFPAUDIO\9&10D8EDB6&0&97
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1448&SUBSYS_00000000&REV_00\3&2411E6FE&0&C0
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C04\4&D4269EB&0
+6/5/2024 19:46 :: Device ID: ACPI\AMDI0030\0
+6/5/2024 19:46 ::  Device found with device id ACPI\AMDI0030\0.Hence setting property SETGPIO2
+6/5/2024 19:46 :: Device ID: SWD\PRINTENUM\{4AD0740D-FF1A-4954-B29E-23700D4B6090}
+6/5/2024 19:46 :: Device ID: USB\VID_174F&PID_2459&MI_00\7&6C047C5&0&0000
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_15E2&SUBSYS_382917AA&REV_01\4&20C24D55&0&0541
+6/5/2024 19:46 :: Device ID: SWD\MSRRAS\{5E259276-BC7E-40E3-B93B-8F89B5F3ABC0}
+6/5/2024 19:46 :: Device ID: ACPI\ACPI0010\1
+6/5/2024 19:46 :: Device ID: BTHENUM\DEV_20160318B30A\8&17A22322&0&BLUETOOTHDEVICE_20160318B30A
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C14\4
+6/5/2024 19:46 :: Device ID: SWD\PRINTENUM\{04B10E3D-C708-4210-B3AA-D84A22464342}
+6/5/2024 19:46 :: Device ID: SWD\MSRRAS\MS_PPTPMINIPORT
+6/5/2024 19:46 :: Device ID: ROOT\VID\0000
+6/5/2024 19:46 :: Device ID: DISPLAY\AUO369F\5&E9F9AC0&0&UID256
+6/5/2024 19:46 :: Device ID: SWD\MSRRAS\MS_AGILEVPNMINIPORT
+6/5/2024 19:46 :: Device ID: ROOT\COMPOSITEBUS\0000
+6/5/2024 19:46 :: Device ID: ROOT\VDRVROOT\0000
+6/5/2024 19:46 :: Device ID: USB\ROOT_HUB30\5&13600380&0&0
+6/5/2024 19:46 :: Device ID: STORAGE\VOLUME\{1D601593-A58C-11ED-AE66-806E6F6E6963}#0000001DA7E00000
+6/5/2024 19:46 :: Device ID: ACPI\PNP0100\4&D4269EB&0
+6/5/2024 19:46 :: Device ID: ACPI\ACPI0003\2&DABA3FF&0
+6/5/2024 19:46 :: Device ID: ROOT\SPACEPORT\0000
+6/5/2024 19:46 :: Device ID: SWD\COMPUTER\MFG_LENOVO&FAM_IDEAPAD_3_15ALC6&PROD_82KU&SKU_LENOVO_MT_82KU_BU_IDEA_FM_IDEAPAD_3
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_7901&SUBSYS_79011022&REV_81\4&E089CB0&0&0042
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_15DF&SUBSYS_382B17AA&REV_00\4&20C24D55&0&0241
+6/5/2024 19:46 ::  Device found with device id PCI\VEN_1022&DEV_15DF&SUBSYS_382B17AA&REV_00\4&20C24D55&0&0241.Hence setting property SETPSP
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_7901&SUBSYS_79011022&REV_81\4&E089CB0&0&0142
+6/5/2024 19:46 :: Device ID: ACPI\IDEA2004\5&15D725F4&0
+6/5/2024 19:46 :: Device ID: UEFI\RES_{D005C0BF-486F-4797-AE56-16D168C343E2}\0
+6/5/2024 19:46 :: Device ID: HID\MSFT0001&COL03\4&224DB979&0&0002
+6/5/2024 19:46 :: Device ID: ROOT\KDNIC\0000
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000111E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&20160318B30A_C00000000
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EEE10D_C00000000
+6/5/2024 19:46 :: Device ID: SWD\PRINTENUM\{3B2F3A22-CE59-4BCD-B673-DBE91361A74A}
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_144E&SUBSYS_00000000&REV_00\3&2411E6FE&0&C6
+6/5/2024 19:46 :: Device ID: HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1007\5&3C4A9D&0&0001
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EFCFDF_C00000000
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C0D\2&DABA3FF&0
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C14\LSK20
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&4D1F20D7CA15_C00000000
+6/5/2024 19:46 :: Device ID: BTHENUM\DEV_2CFDB4EEE10D\8&17A22322&0&BLUETOOTHDEVICE_2CFDB4EEE10D
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1632&SUBSYS_00000000&REV_00\3&2411E6FE&0&08
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1632&SUBSYS_00000000&REV_00\3&2411E6FE&0&10
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1632&SUBSYS_00000000&REV_00\3&2411E6FE&0&40
+6/5/2024 19:46 :: Device ID: SWD\DRIVERENUM\{F8AD342D-16E2-42B7-A8E3-EDED26AAD9E9}#ELEVOCAPO&6&D3DCBC8&0
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1635&SUBSYS_16351022&REV_00\3&2411E6FE&0&41
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1635&SUBSYS_16351022&REV_00\3&2411E6FE&0&42
+6/5/2024 19:46 :: Device ID: BTH\MS_BTHBRB\7&2B318D69&0&1
+6/5/2024 19:46 :: Device ID: ACPI\PNP0103\3&2411E6FE&0
+6/5/2024 19:46 :: Device ID: ROOT\UMBUS\0000
+6/5/2024 19:46 :: Device ID: ROOT\CAD\0000
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_144B&SUBSYS_00000000&REV_00\3&2411E6FE&0&C3
+6/5/2024 19:46 :: Device ID: SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}
+6/5/2024 19:46 :: Device ID: BTHENUM\DEV_2CFDB4EFCFDF\8&17A22322&0&BLUETOOTHDEVICE_2CFDB4EFCFDF
+6/5/2024 19:46 :: Device ID: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&6&D3DCBC8&0
+6/5/2024 19:46 :: Device ID: SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}
+6/5/2024 19:46 :: Device ID: ROOT\ACPI_HAL\0000
+6/5/2024 19:46 :: Device ID: SWD\MMDEVAPI\{0.0.0.00000000}.{92F47744-C50C-47A7-A098-7ED340DE673E}
+6/5/2024 19:46 :: Device ID: ACPI\PNP0800\4&D4269EB&0
+6/5/2024 19:46 :: Device ID: SWD\MSRRAS\MS_NDISWANBH
+6/5/2024 19:46 :: Device ID: SWD\MSRRAS\MS_NDISWANIP
+6/5/2024 19:46 :: Device ID: ACPI\PNP0A08\1
+6/5/2024 19:46 :: Device ID: ACPI\MSFT0001\3&C8C3232&0
+6/5/2024 19:46 :: Device ID: ACPI\VPC2004\0
+6/5/2024 19:46 :: Device ID: HID\MSFT0001&COL04\4&224DB979&0&0003
+6/5/2024 19:46 :: Device ID: BTH\MS_RFCOMM\7&2B318D69&0&0
+6/5/2024 19:46 :: Device ID: USB\ROOT_HUB30\5&FA19EDD&0&0
+6/5/2024 19:46 :: Device ID: BTH\MS_BTHPAN\7&2B318D69&0&2
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1634&SUBSYS_14531022&REV_00\3&2411E6FE&0&12
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1634&SUBSYS_14531022&REV_00\3&2411E6FE&0&14
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C0C\2&DABA3FF&0
+6/5/2024 19:46 :: Device ID: ACPI_HAL\PNP0C08\0
+6/5/2024 19:46 :: Device ID: HTREE\ROOT\0
+6/5/2024 19:46 :: Device ID: ROOT\BASICRENDER\0000
+6/5/2024 19:46 :: Device ID: USB\VID_174F&PID_2459\0001
+6/5/2024 19:46 :: Device ID: SWD\MSRRAS\MS_SSTPMINIPORT
+6/5/2024 19:46 :: Device ID: ACPI_HAL\UEFI\0
+6/5/2024 19:46 :: Device ID: ACPI\PNP0200\4&D4269EB&0
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EEE10D_C00000000
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EFCFDF_C00000000
+6/5/2024 19:46 :: Device ID: BTHHFENUM\BTHHFPAUDIO\9&2BB33801&0&97
+6/5/2024 19:46 :: Device ID: ACPI\FIXEDBUTTON\2&DABA3FF&0
+6/5/2024 19:46 :: Device ID: {5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\5&53C3A58&0&11
+6/5/2024 19:46 :: Device ID: {5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\5&53C3A58&0&12
+6/5/2024 19:46 :: Device ID: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKSRV&6&D3DCBC8&0
+6/5/2024 19:46 :: Device ID: ACPI\PNP0B00\4&D4269EB&0
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&4D1F20D7CA15_C00000000
+6/5/2024 19:46 :: Device ID: SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3HSA_DOLBYAUDIO&6&D3DCBC8&0
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C02\90
+6/5/2024 19:46 :: Device ID: HID\VID_046D&PID_C077\7&1A07DEB2&0&0000
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&20160318B30A_C00000000
+6/5/2024 19:46 :: Device ID: STORAGE\VOLUME\{1D601593-A58C-11ED-AE66-806E6F6E6963}#0000000000100000
+6/5/2024 19:46 :: Device ID: SWD\DRIVERENUM\AMDUWP&5&E9F9AC0&0
+6/5/2024 19:46 :: Device ID: SWD\RADIO\{141F19C4-090A-44AD-92EC-70420902B4DD}
+6/5/2024 19:46 :: Device ID: PCI\VEN_10EC&DEV_C822&SUBSYS_C12317AA&REV_00\00E04CFFFEC8220100
+6/5/2024 19:46 :: Device ID: UEFI\RES_{A2EFC22A-3CA0-4434-A3F9-BF41D9AB2AC7}\0
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_144D&SUBSYS_00000000&REV_00\3&2411E6FE&0&C5
+6/5/2024 19:46 :: Device ID: SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C01\4&D4269EB&0
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EEE10D_C00000000
+6/5/2024 19:46 :: Device ID: SWD\DRIVERENUM\{F8AD342D-16E2-42B7-A8E3-EDED26AAD9E9}#ELEVOCHSA&6&D3DCBC8&0
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1449&SUBSYS_00000000&REV_00\3&2411E6FE&0&C1
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_15E3&SUBSYS_380517AA&REV_00\4&20C24D55&0&0641
+6/5/2024 19:46 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\0
+6/5/2024 19:46 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\1
+6/5/2024 19:46 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\2
+6/5/2024 19:46 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\3
+6/5/2024 19:46 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\4
+6/5/2024 19:46 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\5
+6/5/2024 19:46 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\6
+6/5/2024 19:46 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\7
+6/5/2024 19:46 :: Device ID: ROOT\AMDLOG\0000
+6/5/2024 19:46 :: Device ID: ROOT\NDISVIRTUALBUS\0000
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EFCFDF_C00000000
+6/5/2024 19:46 :: Device ID: ACPI\AMDI0010\0
+6/5/2024 19:46 ::  Device found with device id ACPI\AMDI0010\0.Hence setting property SETI2C
+6/5/2024 19:46 :: Device ID: ACPI\AMDI0010\1
+6/5/2024 19:46 ::  Device found with device id ACPI\AMDI0010\1.Hence setting property SETI2C
+6/5/2024 19:46 :: Device ID: ACPI\AMDI0010\2
+6/5/2024 19:46 ::  Device found with device id ACPI\AMDI0010\2.Hence setting property SETI2C
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_144A&SUBSYS_00000000&REV_00\3&2411E6FE&0&C2
+6/5/2024 19:46 :: Device ID: SCSI\DISK&VEN_NVME&PROD_UMIS_RPJTJ128MEE\5&43DDB03&0&000000
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&4D1F20D7CA15_C00000000
+6/5/2024 19:46 :: Device ID: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKHSA&6&D3DCBC8&0
+6/5/2024 19:46 :: Device ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BC&REV_1000\5&1A974B21&0&0001
+6/5/2024 19:46 :: Device ID: SWD\PRINTENUM\{B6729E69-3912-4322-94E8-283B7D946A10}
+6/5/2024 19:46 :: Device ID: BTHENUM\DEV_4D1F20D7CA15\8&17A22322&0&BLUETOOTHDEVICE_4D1F20D7CA15
+6/5/2024 19:46 :: Device ID: ACPI\FUJ7401\4&D4269EB&0
+6/5/2024 19:46 :: Device ID: SWD\RADIO\BLUETOOTH_0045E2E4D2F4
+6/5/2024 19:46 :: Device ID: STORAGE\VOLUME\{1D601593-A58C-11ED-AE66-806E6F6E6963}#0000000007500000
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_1630&SUBSYS_16301022&REV_00\3&2411E6FE&0&00
+6/5/2024 19:46 :: Device ID: HID\MSFT0001&COL01\4&224DB979&0&0000
+6/5/2024 19:46 :: Device ID: ROOT\MSSMBIOS\0000
+6/5/2024 19:46 :: Device ID: USB\VID_0BDA&PID_C123\00E04C000001
+6/5/2024 19:46 :: Device ID: SWD\MMDEVAPI\{0.0.0.00000000}.{575AE11A-F122-46C1-B1F6-C44AE7F2FB8B}
+6/5/2024 19:46 :: Device ID: SWD\MMDEVAPI\{0.0.1.00000000}.{544BE6FE-D633-4DC5-BCF1-BE882D5792A4}
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&20160318B30A_C00000000
+6/5/2024 19:46 :: Device ID: ROOT\SYSTEM\0000
+6/5/2024 19:46 :: Device ID: ACPI\PNP0C02\3&2411E6FE&0
+6/5/2024 19:46 :: Device ID: BTHHFENUM\BTHHFPAUDIO\9&3C73630&0&97
+6/5/2024 19:46 :: Device ID: ROOT\RDPBUS\0000
+6/5/2024 19:46 :: Device ID: SWD\MMDEVAPI\{0.0.0.00000000}.{C4ECAE8A-66B9-41E8-8333-FD6EED066747}
+6/5/2024 19:46 :: Device ID: ACPI\PNP0000\4&D4269EB&0
+6/5/2024 19:46 :: Device ID: SWD\MSRRAS\MS_NDISWANIPV6
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_144F&SUBSYS_00000000&REV_00\3&2411E6FE&0&C7
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_790B&SUBSYS_384317AA&REV_51\3&2411E6FE&0&A0
+6/5/2024 19:46 :: Checking for REV_16 in deatils since ven and dev id were found.
+6/5/2024 19:46 ::  Met conditions 'Win10/RS2,VEN_1022 AND DEV_790B with REV_61/REV_59/REV_51'.Hence setting property SETRYZENPPKG.
+6/5/2024 19:46 ::  Device found with device id PCI\VEN_1022&DEV_790B&SUBSYS_384317AA&REV_51\3&2411E6FE&0&A0.Hence setting property SETINTERFACE
+6/5/2024 19:46 ::  Device found with device id PCI\VEN_1022&DEV_790B&SUBSYS_384317AA&REV_51\3&2411E6FE&0&A0.Hence setting property SETSMBUS
+6/5/2024 19:46 :: Device ID: BTHENUM\{0000111E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EEE10D_C00000000
+6/5/2024 19:46 :: Device ID: BTHHFENUM\BTHHFPAUDIO\9&233ACD44&0&97
+6/5/2024 19:46 :: Device ID: SWD\MSRRAS\MS_L2TPMINIPORT
+6/5/2024 19:46 :: Enlisting drivers under 'IDE ATA\ATAPI Controllers' node in Device Manager
+6/5/2024 19:46 :: **********************************************************************************
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_7901&SUBSYS_79011022&REV_81\4&E089CB0&0&0042
+6/5/2024 19:46 :: Device ID: PCI\VEN_1022&DEV_7901&SUBSYS_79011022&REV_81\4&E089CB0&0&0142
+6/5/2024 19:46 :: Enlisting drivers under 'Network Adaptors' node in Device Manager
+6/5/2024 19:46 :: **************************************************************************
+6/5/2024 19:46 :: Device ID: 0
+6/5/2024 19:46 :: Device ID: 1
+6/5/2024 19:46 :: Device ID: 2
+6/5/2024 19:46 :: Device ID: 3
+6/5/2024 19:46 :: Device ID: 4
+6/5/2024 19:46 :: Device ID: 5
+6/5/2024 19:46 :: Device ID: 6
+6/5/2024 19:46 :: Device ID: 7
+6/5/2024 19:46 :: Device ID: 8
+6/5/2024 19:46 :: Device ID: 9
+6/5/2024 19:46 :: Device ID: 10
+6/5/2024 19:46 :: Device ID: 11
+6/5/2024 19:46 :: Device ID: 12
+6/5/2024 19:46 :: Device ID: 13
+6/5/2024 19:46 :: File found. Proceeding to read.
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : AMD Processor Power Management Support - AMD Ryzen Power Plan found
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : AMD I2C Driver found
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : AMD GPIO2 Driver found
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : AMD PSP Driver found
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : AMD SMBUS Drivern found
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : AMD Interface Driver
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETEMBSMBUS
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETWDT
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETGPIO2
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETPSP
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETI2C
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETRYZENPPKG
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETINTERFACE
+6/5/2024 19:46 :: ReadXMLValues : Value inside array is evaluated against : /SETSMBUS
+6/5/2024 19:47 :: FolderDeletion_up : DeployedFeatures key is not present.
+6/5/2024 19:47 :: Enlisting drivers under 'system devices' node(PNP) in Device Manager
+6/5/2024 19:47 :: **************************************************************************
+6/5/2024 19:47 ::  Device Found SMBUS with Vendor id VEN_1022.Hence setting property DETECTAMD
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_790B&SUBSYS_384317AA&REV_51\3&2411E6FE&0&A0
+6/5/2024 19:47 :: PNP Device ID: PCI\VEN_1022&DEV_790B&SUBSYS_384317AA&REV_51\3&2411E6FE&0&A0
+6/5/2024 19:47 ::  OS Version is : 10.0.22621
+6/5/2024 19:47 :: Enlisting drivers under 'system devices' node(PNP) in Device Manager
+6/5/2024 19:47 :: **************************************************************************
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000111E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EFCFDF_C00000000
+6/5/2024 19:47 :: Device ID: USB\VID_046D&PID_C077\6&578DBB&0&1
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C02\1
+6/5/2024 19:47 :: Device ID: SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000111E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&4D1F20D7CA15_C00000000
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C09\1
+6/5/2024 19:47 :: Device ID: STORAGE\VOLUME\{1D601593-A58C-11ED-AE66-806E6F6E6963}#0000000006500000
+6/5/2024 19:47 :: Device ID: ACPI\LHK2019\0
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C0A\1
+6/5/2024 19:47 :: Device ID: ACP\DEVTYPE_0001&DEVREV_0000&VEN_1022&DEV_15E2&SUBSYS_17AA3829&REV_01\5&3597C09C&0&01
+6/5/2024 19:47 :: Device ID: SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3APOSVC&6&D3DCBC8&0
+6/5/2024 19:47 :: Device ID: SWD\PRINTENUM\PRINTQUEUES
+6/5/2024 19:47 :: Device ID: PCI\VEN_1CC4&DEV_6201&SUBSYS_1CC41CC4&REV_03\4&18C11EE3&0&0014
+6/5/2024 19:47 :: Device ID: PCI\VEN_1002&DEV_1637&SUBSYS_380217AA&REV_00\4&20C24D55&0&0141
+6/5/2024 19:47 :: Device ID: PCI\VEN_1002&DEV_164C&SUBSYS_3F9517AA&REV_C3\4&20C24D55&0&0041
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_144C&SUBSYS_00000000&REV_00\3&2411E6FE&0&C4
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1639&SUBSYS_16391022&REV_00\4&20C24D55&0&0341
+6/5/2024 19:47 :: Device ID: SWD\MMDEVAPI\{0.0.1.00000000}.{CF006C02-7F93-49F3-B736-5C70C202350A}
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1639&SUBSYS_16391022&REV_00\4&20C24D55&0&0441
+6/5/2024 19:47 :: Device ID: ROOT\VOLMGR\0000
+6/5/2024 19:47 :: Device ID: HID\MSFT0001&COL02\4&224DB979&0&0001
+6/5/2024 19:47 :: Device ID: BTH\MS_BTHLE\7&2B318D69&0&3
+6/5/2024 19:47 :: Device ID: ACPI\MSFT0101\2&DABA3FF&0
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_790E&SUBSYS_384117AA&REV_51\3&2411E6FE&0&A3
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&20160318B30A_C00000000
+6/5/2024 19:47 :: Device ID: SWD\MSRRAS\MS_PPPOEMINIPORT
+6/5/2024 19:47 :: Device ID: USB\VID_174F&PID_2459&MI_02\7&6C047C5&0&0002
+6/5/2024 19:47 :: Device ID: ROOT\BASICDISPLAY\0000
+6/5/2024 19:47 :: Device ID: BTHHFENUM\BTHHFPAUDIO\9&10D8EDB6&0&97
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1448&SUBSYS_00000000&REV_00\3&2411E6FE&0&C0
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C04\4&D4269EB&0
+6/5/2024 19:47 :: Device ID: ACPI\AMDI0030\0
+6/5/2024 19:47 :: Device ID: SWD\PRINTENUM\{4AD0740D-FF1A-4954-B29E-23700D4B6090}
+6/5/2024 19:47 :: Device ID: USB\VID_174F&PID_2459&MI_00\7&6C047C5&0&0000
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_15E2&SUBSYS_382917AA&REV_01\4&20C24D55&0&0541
+6/5/2024 19:47 :: Device ID: SWD\MSRRAS\{5E259276-BC7E-40E3-B93B-8F89B5F3ABC0}
+6/5/2024 19:47 :: Device ID: ACPI\ACPI0010\1
+6/5/2024 19:47 :: Device ID: BTHENUM\DEV_20160318B30A\8&17A22322&0&BLUETOOTHDEVICE_20160318B30A
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C14\4
+6/5/2024 19:47 :: Device ID: SWD\PRINTENUM\{04B10E3D-C708-4210-B3AA-D84A22464342}
+6/5/2024 19:47 :: Device ID: SWD\MSRRAS\MS_PPTPMINIPORT
+6/5/2024 19:47 :: Device ID: ROOT\VID\0000
+6/5/2024 19:47 :: Device ID: DISPLAY\AUO369F\5&E9F9AC0&0&UID256
+6/5/2024 19:47 :: Device ID: SWD\MSRRAS\MS_AGILEVPNMINIPORT
+6/5/2024 19:47 :: Device ID: ROOT\COMPOSITEBUS\0000
+6/5/2024 19:47 :: Device ID: ROOT\VDRVROOT\0000
+6/5/2024 19:47 :: Device ID: USB\ROOT_HUB30\5&13600380&0&0
+6/5/2024 19:47 :: Device ID: STORAGE\VOLUME\{1D601593-A58C-11ED-AE66-806E6F6E6963}#0000001DA7E00000
+6/5/2024 19:47 :: Device ID: ACPI\PNP0100\4&D4269EB&0
+6/5/2024 19:47 :: Device ID: ACPI\ACPI0003\2&DABA3FF&0
+6/5/2024 19:47 :: Device ID: ROOT\SPACEPORT\0000
+6/5/2024 19:47 :: Device ID: SWD\COMPUTER\MFG_LENOVO&FAM_IDEAPAD_3_15ALC6&PROD_82KU&SKU_LENOVO_MT_82KU_BU_IDEA_FM_IDEAPAD_3
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_7901&SUBSYS_79011022&REV_81\4&E089CB0&0&0042
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_15DF&SUBSYS_382B17AA&REV_00\4&20C24D55&0&0241
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_7901&SUBSYS_79011022&REV_81\4&E089CB0&0&0142
+6/5/2024 19:47 :: Device ID: ACPI\IDEA2004\5&15D725F4&0
+6/5/2024 19:47 :: Device ID: UEFI\RES_{D005C0BF-486F-4797-AE56-16D168C343E2}\0
+6/5/2024 19:47 :: Device ID: HID\MSFT0001&COL03\4&224DB979&0&0002
+6/5/2024 19:47 :: Device ID: ROOT\KDNIC\0000
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000111E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&20160318B30A_C00000000
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EEE10D_C00000000
+6/5/2024 19:47 :: Device ID: SWD\PRINTENUM\{3B2F3A22-CE59-4BCD-B673-DBE91361A74A}
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_144E&SUBSYS_00000000&REV_00\3&2411E6FE&0&C6
+6/5/2024 19:47 :: Device ID: HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1007\5&3C4A9D&0&0001
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EFCFDF_C00000000
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C0D\2&DABA3FF&0
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C14\LSK20
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&4D1F20D7CA15_C00000000
+6/5/2024 19:47 :: Device ID: BTHENUM\DEV_2CFDB4EEE10D\8&17A22322&0&BLUETOOTHDEVICE_2CFDB4EEE10D
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1632&SUBSYS_00000000&REV_00\3&2411E6FE&0&08
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1632&SUBSYS_00000000&REV_00\3&2411E6FE&0&10
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1632&SUBSYS_00000000&REV_00\3&2411E6FE&0&40
+6/5/2024 19:47 :: Device ID: SWD\DRIVERENUM\{F8AD342D-16E2-42B7-A8E3-EDED26AAD9E9}#ELEVOCAPO&6&D3DCBC8&0
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1635&SUBSYS_16351022&REV_00\3&2411E6FE&0&41
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1635&SUBSYS_16351022&REV_00\3&2411E6FE&0&42
+6/5/2024 19:47 :: Device ID: BTH\MS_BTHBRB\7&2B318D69&0&1
+6/5/2024 19:47 :: Device ID: ACPI\PNP0103\3&2411E6FE&0
+6/5/2024 19:47 :: Device ID: ROOT\UMBUS\0000
+6/5/2024 19:47 :: Device ID: ROOT\CAD\0000
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_144B&SUBSYS_00000000&REV_00\3&2411E6FE&0&C3
+6/5/2024 19:47 :: Device ID: SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}
+6/5/2024 19:47 :: Device ID: BTHENUM\DEV_2CFDB4EFCFDF\8&17A22322&0&BLUETOOTHDEVICE_2CFDB4EFCFDF
+6/5/2024 19:47 :: Device ID: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&6&D3DCBC8&0
+6/5/2024 19:47 :: Device ID: SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}
+6/5/2024 19:47 :: Device ID: ROOT\ACPI_HAL\0000
+6/5/2024 19:47 :: Device ID: SWD\MMDEVAPI\{0.0.0.00000000}.{92F47744-C50C-47A7-A098-7ED340DE673E}
+6/5/2024 19:47 :: Device ID: ACPI\PNP0800\4&D4269EB&0
+6/5/2024 19:47 :: Device ID: SWD\MSRRAS\MS_NDISWANBH
+6/5/2024 19:47 :: Device ID: SWD\MSRRAS\MS_NDISWANIP
+6/5/2024 19:47 :: Device ID: ACPI\PNP0A08\1
+6/5/2024 19:47 :: Device ID: ACPI\MSFT0001\3&C8C3232&0
+6/5/2024 19:47 :: Device ID: ACPI\VPC2004\0
+6/5/2024 19:47 :: Device ID: HID\MSFT0001&COL04\4&224DB979&0&0003
+6/5/2024 19:47 :: Device ID: BTH\MS_RFCOMM\7&2B318D69&0&0
+6/5/2024 19:47 :: Device ID: USB\ROOT_HUB30\5&FA19EDD&0&0
+6/5/2024 19:47 :: Device ID: BTH\MS_BTHPAN\7&2B318D69&0&2
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1634&SUBSYS_14531022&REV_00\3&2411E6FE&0&12
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1634&SUBSYS_14531022&REV_00\3&2411E6FE&0&14
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C0C\2&DABA3FF&0
+6/5/2024 19:47 :: Device ID: ACPI_HAL\PNP0C08\0
+6/5/2024 19:47 :: Device ID: HTREE\ROOT\0
+6/5/2024 19:47 :: Device ID: ROOT\BASICRENDER\0000
+6/5/2024 19:47 :: Device ID: USB\VID_174F&PID_2459\0001
+6/5/2024 19:47 :: Device ID: SWD\MSRRAS\MS_SSTPMINIPORT
+6/5/2024 19:47 :: Device ID: ACPI_HAL\UEFI\0
+6/5/2024 19:47 :: Device ID: ACPI\PNP0200\4&D4269EB&0
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EEE10D_C00000000
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EFCFDF_C00000000
+6/5/2024 19:47 :: Device ID: BTHHFENUM\BTHHFPAUDIO\9&2BB33801&0&97
+6/5/2024 19:47 :: Device ID: ACPI\FIXEDBUTTON\2&DABA3FF&0
+6/5/2024 19:47 :: Device ID: {5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\5&53C3A58&0&11
+6/5/2024 19:47 :: Device ID: {5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\5&53C3A58&0&12
+6/5/2024 19:47 :: Device ID: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKSRV&6&D3DCBC8&0
+6/5/2024 19:47 :: Device ID: ACPI\PNP0B00\4&D4269EB&0
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&4D1F20D7CA15_C00000000
+6/5/2024 19:47 :: Device ID: SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3HSA_DOLBYAUDIO&6&D3DCBC8&0
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C02\90
+6/5/2024 19:47 :: Device ID: HID\VID_046D&PID_C077\7&1A07DEB2&0&0000
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&20160318B30A_C00000000
+6/5/2024 19:47 :: Device ID: STORAGE\VOLUME\{1D601593-A58C-11ED-AE66-806E6F6E6963}#0000000000100000
+6/5/2024 19:47 :: Device ID: SWD\DRIVERENUM\AMDUWP&5&E9F9AC0&0
+6/5/2024 19:47 :: Device ID: SWD\RADIO\{141F19C4-090A-44AD-92EC-70420902B4DD}
+6/5/2024 19:47 :: Device ID: PCI\VEN_10EC&DEV_C822&SUBSYS_C12317AA&REV_00\00E04CFFFEC8220100
+6/5/2024 19:47 :: Device ID: UEFI\RES_{A2EFC22A-3CA0-4434-A3F9-BF41D9AB2AC7}\0
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_144D&SUBSYS_00000000&REV_00\3&2411E6FE&0&C5
+6/5/2024 19:47 :: Device ID: SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C01\4&D4269EB&0
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EEE10D_C00000000
+6/5/2024 19:47 :: Device ID: SWD\DRIVERENUM\{F8AD342D-16E2-42B7-A8E3-EDED26AAD9E9}#ELEVOCHSA&6&D3DCBC8&0
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1449&SUBSYS_00000000&REV_00\3&2411E6FE&0&C1
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_15E3&SUBSYS_380517AA&REV_00\4&20C24D55&0&0641
+6/5/2024 19:47 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\0
+6/5/2024 19:47 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\1
+6/5/2024 19:47 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\2
+6/5/2024 19:47 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\3
+6/5/2024 19:47 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\4
+6/5/2024 19:47 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\5
+6/5/2024 19:47 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\6
+6/5/2024 19:47 :: Device ID: ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_104_-_AMD_RYZEN_3_5300U_WITH_RADEON_GRAPHICS_________\7
+6/5/2024 19:47 :: Device ID: ROOT\AMDLOG\0000
+6/5/2024 19:47 :: Device ID: ROOT\NDISVIRTUALBUS\0000
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EFCFDF_C00000000
+6/5/2024 19:47 :: Device ID: ACPI\AMDI0010\0
+6/5/2024 19:47 :: Device ID: ACPI\AMDI0010\1
+6/5/2024 19:47 :: Device ID: ACPI\AMDI0010\2
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_144A&SUBSYS_00000000&REV_00\3&2411E6FE&0&C2
+6/5/2024 19:47 :: Device ID: SCSI\DISK&VEN_NVME&PROD_UMIS_RPJTJ128MEE\5&43DDB03&0&000000
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&4D1F20D7CA15_C00000000
+6/5/2024 19:47 :: Device ID: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKHSA&6&D3DCBC8&0
+6/5/2024 19:47 :: Device ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BC&REV_1000\5&1A974B21&0&0001
+6/5/2024 19:47 :: Device ID: SWD\PRINTENUM\{B6729E69-3912-4322-94E8-283B7D946A10}
+6/5/2024 19:47 :: Device ID: BTHENUM\DEV_4D1F20D7CA15\8&17A22322&0&BLUETOOTHDEVICE_4D1F20D7CA15
+6/5/2024 19:47 :: Device ID: ACPI\FUJ7401\4&D4269EB&0
+6/5/2024 19:47 :: Device ID: SWD\RADIO\BLUETOOTH_0045E2E4D2F4
+6/5/2024 19:47 :: Device ID: STORAGE\VOLUME\{1D601593-A58C-11ED-AE66-806E6F6E6963}#0000000007500000
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_1630&SUBSYS_16301022&REV_00\3&2411E6FE&0&00
+6/5/2024 19:47 :: Device ID: HID\MSFT0001&COL01\4&224DB979&0&0000
+6/5/2024 19:47 :: Device ID: ROOT\MSSMBIOS\0000
+6/5/2024 19:47 :: Device ID: USB\VID_0BDA&PID_C123\00E04C000001
+6/5/2024 19:47 :: Device ID: SWD\MMDEVAPI\{0.0.0.00000000}.{575AE11A-F122-46C1-B1F6-C44AE7F2FB8B}
+6/5/2024 19:47 :: Device ID: SWD\MMDEVAPI\{0.0.1.00000000}.{544BE6FE-D633-4DC5-BCF1-BE882D5792A4}
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&20160318B30A_C00000000
+6/5/2024 19:47 :: Device ID: ROOT\SYSTEM\0000
+6/5/2024 19:47 :: Device ID: ACPI\PNP0C02\3&2411E6FE&0
+6/5/2024 19:47 :: Device ID: BTHHFENUM\BTHHFPAUDIO\9&3C73630&0&97
+6/5/2024 19:47 :: Device ID: ROOT\RDPBUS\0000
+6/5/2024 19:47 :: Device ID: SWD\MMDEVAPI\{0.0.0.00000000}.{C4ECAE8A-66B9-41E8-8333-FD6EED066747}
+6/5/2024 19:47 :: Device ID: ACPI\PNP0000\4&D4269EB&0
+6/5/2024 19:47 :: Device ID: SWD\MSRRAS\MS_NDISWANIPV6
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_144F&SUBSYS_00000000&REV_00\3&2411E6FE&0&C7
+6/5/2024 19:47 :: Device ID: PCI\VEN_1022&DEV_790B&SUBSYS_384317AA&REV_51\3&2411E6FE&0&A0
+6/5/2024 19:47 :: Device ID: BTHENUM\{0000111E-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\8&17A22322&0&2CFDB4EEE10D_C00000000
+6/5/2024 19:47 :: Device ID: BTHHFENUM\BTHHFPAUDIO\9&233ACD44&0&97
+6/5/2024 19:47 :: Device ID: SWD\MSRRAS\MS_L2TPMINIPORT
+6/5/2024 19:47 :: RemoveInstalledDrivers : I2C driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : UART driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : GPIO2 driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : USB3.0_Hudson_Hub driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : USB3.0_Hudson_XHC driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : USB3.0_HUB driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : USB3.0_XHC driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : USB3.1_HUB_PT driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : USB3.1_XHC_PT driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : SATA driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : PT GPIO driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : USB Filter driver installer not present
+6/5/2024 19:47 :: RemoveInstalledDrivers : USB 3.1 driver installer not present
+6/5/2024 19:47 :: Enlisting drivers under 'Processor' node for power plan in control pannel
+6/5/2024 19:47 :: ********************************************************************************
+6/5/2024 19:47 :: Family: AMD64 Family 23 Model 104 Stepping 1
+6/5/2024 19:47 :: GetFamilyID : position where Family string is present : 7
+6/5/2024 19:47 :: GetFamilyID : Hexadecimal value of familyID '23' at 14th position of system caption is : 17
+6/5/2024 19:47 :: GetFamilyID : position where Model string is present : 17
+6/5/2024 19:47 :: GetFamilyID : position where Stepping string is present : 27
+6/5/2024 19:47 :: GetFamilyID : Hexadecimal value of modelID '104' at 23th position of system caption is : 68
+6/5/2024 19:47 :: GetFamilyID : position where Stepping string is present : 27
+6/5/2024 19:47 :: GetFamilyID : Hexadecimal value of modelID '104' at 36th position of system caption is : 1
+6/5/2024 19:47 :: Dpinst.log file not found.
+6/5/2024 19:47 :: List of features deployed initially : 
+6/5/2024 19:47 :: Remove value written to registry is: 
+6/5/2024 19:47 :: RemResidualFol_up : Folder %appdata%..\Chipset_Driver_Installer not found.
+6/5/2024 19:47 :: RemResidualFol_up: Folder %PFx86%..\Chipset_IODrivers not found.
+6/5/2024 19:47 :: FolderDeletion : Deleting C:\AMD\Chipset_Driver_Installer
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\UART Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\I2C Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\GPIO2 Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\PSP Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\SFH Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\SFH1.1 Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\UPEP Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\RyzenPPKG Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\SBxxxSMBus Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\SFHI2C Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\AMDAS4 Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\GPIO Promontory Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\Promontory GPIO Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\SATA Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\USB3.1 Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\USB Filter Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\IOV_WT Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\IOV Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\PCI Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\CIR Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\USB3.0HostController Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\USB3.0Hub Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\USBHUB Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\USBController Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\amdxhc_PT Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\amdhub_PT Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\amdhub_PT Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\CCP Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\EMBSMBus_Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\EMBSPIFlash Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\Serial Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\WDT_Driver not found.
+6/5/2024 19:47 :: FolderDeletion: Folder C:\AMD\eMMC Driver not found.
+6/5/2024 19:47 :: ProductCode value obtained from session : {42e5a8d4-8fb0-48a1-9063-fc159c7566a0}
+6/5/2024 19:47 :: EstimatedSize value obtained form registry SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{42e5a8d4-8fb0-48a1-9063-fc159c7566a0}\ is : 10875
+6/5/2024 19:47 :: EstimatedSize value written to registry HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AMD_Chipset_IODrivers\EstimatedSize
+6/5/2024 19:47 :: Dpinst.log file not found.
+6/5/2024 19:47 :: REMOVEVALUE property value is : 
+6/5/2024 19:47 :: DPLINECOUNT property value is : 
+6/5/2024 19:47 :: ADDLOCAL property value is : Drivers,I2C,GPIO2,PSP,RYZENPPKG,SMBUS
+6/5/2024 19:47 :: REMPSHED property value is : 
+6/5/2024 19:47 :: Transaction NOT in uninstall mode
+6/5/2024 19:47 :: Dpinst.log file not found.
+6/5/2024 19:47 :: FileCopy : C:\WINDOWS\DPINST.LOG not found.
+6/5/2024 19:47 :: FileCopy : Copying C:\WINDOWS\inf\setupapi.dev.log to C:\AMD\Chipset_Software\Logs\ failed with err : 424
+6/5/2024 19:47 :: FileCopy : C:\WINDOWS\inf\setupapi.log not found.
+06.05.2024 19:47:26 :: PSP_Cleanup : Existing values on 'owners' key : oem43.inf
+06.05.2024 19:47:26 :: PSP_Cleanup: Oem value of existing PSP Driver obtaned from registry is : oem43.inf
+06.05.2024 19:47:26 :: PSP_Cleanup : Command to uninstall already existing PSP driver form system : "C:\AMD\Chipset_Software\Binaries\PSP Driver\dpinst64.exe" /U "C:\WINDOWS\inf\oem43.inf" /LM /SA /SW
+06.05.2024 19:47:30 :: RyzenLogDel_Up : C:\AMD\Chipset_Software\Binaries\RyzenPPKG Driver\WTx64\log.txt not found.
+06.05.2024 19:47:30 :: RyzenLogDel_Up: Folder C:\AMD\Chipset_Software\Binaries\RyzenPPKG Driver\WTx64 not found.
+06.05.2024 19:47:30 :: PPKG_Cleanup : Cleanup not attemped as AMDPPMSettings.exe not found in system.
+06.05.2024 19:47:30 :: PPKG_Cleanup : Registry clean up attempted for existing drivers
+6/5/2024 19:47 :: REMOVEVALUE property value is : 
+6/5/2024 19:47 :: DPLINECOUNT property value is : 
+6/5/2024 19:47 :: ADDLOCAL property value is : Drivers,I2C,GPIO2,PSP,RYZENPPKG,SMBUS
+6/5/2024 19:47 :: REMPSHED property value is : 
+6/5/2024 19:47 :: Transaction NOT in uninstall mode
+6/5/2024 19:47 :: No previous line count obtained from dpinst.log
+6/5/2024 19:47 :: REBOOTSTATUS NOT set from newly created dpinst file.Writing NO to registry.
+6/5/2024 19:47 :: FileCopy : Copying C:\WINDOWS\DPINST.LOG to C:\AMD\Chipset_Software\Logs\ failed with err : -2147024894
+6/5/2024 19:47 :: FileCopy : Copying C:\WINDOWS\inf\setupapi.dev.log to C:\AMD\Chipset_Software\Logs\ failed with err : -2147024894
+6/5/2024 19:47 :: FileCopy : C:\WINDOWS\inf\setupapi.log not found.
