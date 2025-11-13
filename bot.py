@@ -1,4 +1,4 @@
-import logging 
+import logging  
 import pickle
 import os
 from datetime import datetime
@@ -116,8 +116,8 @@ async def who(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ Пользователь не найден.")
 
 
-# ======= ЗАПУСК БОТА =======
-async def run():
+# ======= ЗАПУСК БОТА (правильный для Render!) =======
+def main():
     load_state()
 
     app = ApplicationBuilder().token(TOKEN).build()
@@ -128,9 +128,8 @@ async def run():
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
     logging.info("💖 Бот запущен!")
-    await app.run_polling()
+    app.run_polling()
 
 
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(run())
+    main()
