@@ -1,4 +1,4 @@
-import logging
+import logging  
 import pickle
 import os
 from datetime import datetime
@@ -9,11 +9,8 @@ from telegram.ext import (
 )
 from telegram.error import Forbidden
 
-
-# ======= НАСТРОЙКИ =======
 TOKEN = os.getenv("TOKEN")
 FORUM_CHAT_ID = int(os.getenv("FORUM_CHAT_ID"))
-
 STATE_FILE = "bot_state.pkl"
 
 logging.basicConfig(
@@ -23,51 +20,36 @@ logging.basicConfig(
 
 user_topics = {}
 last_active = {}
-banned_users = set()
 
-
-# ======= СОХРАНЕНИЕ / ЗАГРУЗКА =======
 def save_state():
     with open(STATE_FILE, "wb") as f:
-        pickle.dump((user_topics, last_active, banned_users), f)
-
+        pickle.dump((user_topics, last_active), f)
 
 def load_state():
-    global user_topics, last_active, banned_users
+    global user_topics, last_active
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, "rb") as f:
-            user_topics, last_active, banned_users = pickle.load(f)
+            user_topics, last_active = pickle.load(f)
         logging.info("🔵 Состояние восстановлено!")
 
 
-# ======= КОМАНДА /start =======
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if update.message.from_user.id in banned_users:
-        return
-
     await update.message.reply_text(
         "Приветик, солнышко 🌤\n"
-        "Я рядом. Просто напиши мне, и я передам твоё сообщение 💛"
+        "Я рядом. Просто напиши мне 💛"
     )
 
 
-# ======= ПОЛУЧЕНИЕ СООБЩЕНИЙ ОТ ПОЛЬЗОВАТЕЛЕЙ =======
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.message.from_user
-
-    # ❗ Заблокированный не может писать
-    if user.id in banned_users:
-        return
-
     text = update.message.text
+
     last_active[user.id] = datetime.now()
 
     try:
-        # если у пользователя уже есть тема
         if user.id in user_topics:
             thread_id = user_topics[user.id]
         else:
-            # создаём новую тему
             topic = await context.bot.create_forum_topic(
                 FORUM_CHAT_ID,
                 name=f"{user.first_name}"
@@ -89,7 +71,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("⚠️ Ошибка при отправке.")
 
 
-# ======= ОТВЕТЫ АДМИНА ПОЛЬЗОВАТЕЛЮ =======
 async def reply_to_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not update.message.is_topic_message:
         return
@@ -100,10 +81,6 @@ async def reply_to_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = next((uid for uid, tid in user_topics.items() if tid == thread_id), None)
 
     if user_id:
-        if user_id in banned_users:
-            await update.message.reply_text("❌ Пользователь заблокирован, ответ не отправлен.")
-            return
-
         try:
             await context.bot.send_message(
                 chat_id=user_id,
@@ -115,62 +92,37 @@ async def reply_to_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ Пользователь не найден.")
 
 
-# ======= /who =======
 async def who(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not update.message.is_topic_message:
         await update.message.reply_text("❗ Используй команду внутри темы.")
         return
 
     thread_id = update.message.message_thread_id
-    user_id = next((uid, tid) for uid, tid in user_topics.items() if tid == thread_id)[0]
-
-    await update.message.reply_text(
-        f"🆔 ID пользователя: `{user_id}`",
-        parse_mode="Markdown"
-    )
-
-
-# ======= /ban =======
-async def ban(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if not update.message.is_topic_message:
-        await update.message.reply_text("❗ Используй команду в теме.")
-        return
-
-    thread_id = update.message.message_thread_id
-
     user_id = next((uid for uid, tid in user_topics.items() if tid == thread_id), None)
 
-    if not user_id:
+    if user_id:
+        await update.message.reply_text(
+            f"🆔 ID пользователя: `{user_id}`",
+            parse_mode="Markdown"
+        )
+    else:
         await update.message.reply_text("❌ Пользователь не найден.")
-        return
-
-    banned_users.add(user_id)
-    save_state()
-
-    await update.message.reply_text(
-        f"⛔ Пользователь `{user_id}` заблокирован!",
-        parse_mode="Markdown"
-    )
 
 
-# ======= ЗАПУСК БОТА =======
-async def run():
+# =============== ЗАПУСК ДЛЯ RENDER ==================
+def main():
     load_state()
 
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("ban", ban))
     app.add_handler(CommandHandler("who", who))
-
     app.add_handler(MessageHandler(filters.Chat(FORUM_CHAT_ID) & filters.TEXT, reply_to_user))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
     logging.info("💖 Бот запущен!")
-    await app.run_polling()
+    app.run_polling()
 
 
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(run())
-
+    main()
