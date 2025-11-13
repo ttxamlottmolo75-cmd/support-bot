@@ -3,13 +3,22 @@ services:
     name: support-bot
     env: python
     plan: free
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.10.12
-
     buildCommand: |
       apt-get update && apt-get install -y wkhtmltopdf python3-imgkit
       pip install --upgrade pip
       pip install -r requirements.txt
+    startCommand: uvicorn bot:app --host 0.0.0.0 --port 10000
 
-    startCommand: python bot.py
+envVars:
+  - key: PYTHON_VERSION
+    value: 3.10.12
+  - key: TOKEN
+    sync: false
+  - key: WEBHOOK_SECRET
+    sync: false
+  - key: FORUM_CHAT_ID
+    sync: false
+
+routes:
+  - type: http
+    path: /.*
