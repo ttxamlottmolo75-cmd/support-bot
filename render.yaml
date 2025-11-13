@@ -10,7 +10,6 @@ services:
     buildCommand: |
       apt-get update && apt-get install -y wkhtmltopdf python3-imgkit
       pip install --upgrade pip
-      pip install -r support-bot/requirements.txt
+      pip install -r requirements.txt
 
-    startCommand: python support-bot/bot.py
-
+    startCommand: python bot.py
