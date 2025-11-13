@@ -1,8 +1,8 @@
 cronjobs:
-  - name: restart-evening
-    schedule: "0 17 * * *"
+  - name: restart-morning
+    schedule: "0 3 * * *"
     command: "curl -X POST $RENDER_DEPLOY_HOOK"
 
-  - name: restart-morning
-    schedule: "0 6 * * *"
+  - name: restart-evening
+    schedule: "0 17 * * *"
     command: "curl -X POST $RENDER_DEPLOY_HOOK"
