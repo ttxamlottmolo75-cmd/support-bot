@@ -1,0 +1,8 @@
+cronjobs:
+  - name: restart-evening
+    schedule: "0 17 * * *"
+    command: "curl -X POST $RENDER_DEPLOY_HOOK"
+
+  - name: restart-morning
+    schedule: "0 6 * * *"
+    command: "curl -X POST $RENDER_DEPLOY_HOOK"
