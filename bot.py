@@ -1,159 +1,131 @@
-import logging
-import pickle
 import os
+import pickle
+import logging
 from datetime import datetime, timedelta
 
-from aiohttp import web
-from telegram import Update
-from telegram.error import Forbidden
-from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
+from fastapi import FastAPI, Request
+from fastapi.responses import JSONResponse
+from telegram import Bot, Update
+from telegram.ext import Application, ContextTypes
 
-# -------------------------
-# НАСТРОЙКИ
-# -------------------------
+logging.basicConfig(level=logging.INFO)
+
 TOKEN = os.getenv("TOKEN")
+WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET")  # Защита вебхука
 FORUM_CHAT_ID = int(os.getenv("FORUM_CHAT_ID"))
+
+bot = Bot(token=TOKEN)
+
 STATE_FILE = "bot_state.pkl"
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
-
-# Храним темы и активность
 user_topics = {}
 last_active = {}
 
-# -------------------------
-# Восстановление состояния
-# -------------------------
+# -------------------- LOAD/SAVE STATE ----------------------
+
 def save_state():
     with open(STATE_FILE, "wb") as f:
         pickle.dump((user_topics, last_active), f)
+    logging.info("State saved.")
 
 def load_state():
     global user_topics, last_active
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, "rb") as f:
             user_topics, last_active = pickle.load(f)
-        logging.info("Состояние восстановлено!")
+        logging.info("State loaded.")
 
-# -------------------------
-# Команда /start
-# -------------------------
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(
-        "Приветик, солнышко 🌤\n"
-        "Я рядом. Просто напиши мне любое сообщение 💛"
-    )
+load_state()
 
-# -------------------------
-# Пользователь → админ
-# -------------------------
-async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+# --------------------- FASTAPI APP -------------------------
+
+app = FastAPI()
+
+# ---------- Webhook handler ----------
+@app.post("/webhook")
+async def webhook(request: Request):
+    if request.headers.get("X-Telegram-Bot-Api-Secret-Token") != WEBHOOK_SECRET:
+        return JSONResponse({"status": "forbidden"}, status_code=403)
+
+    data = await request.json()
+    update = Update.de_json(data, bot)
+    await process_update(update)
+    return JSONResponse({"status": "ok"})
+
+# ---------- MAIN UPDATE ROUTER ----------
+async def process_update(update: Update):
+    if update.message:
+        await handle_user_message(update)
+    elif update.message is None and update.channel_post is None:
+        logging.info("Other update ignored.")
+
+# ---------------- USER → ADMIN -----------------
+async def handle_user_message(update: Update):
     user = update.message.from_user
-    text = update.message.text
+    text = update.message.text or ""
 
     last_active[user.id] = datetime.now()
 
     try:
-        if user.id in user_topics:
-            thread_id = user_topics[user.id]
-        else:
-            topic = await context.bot.create_forum_topic(
-                FORUM_CHAT_ID,
+        if user.id not in user_topics:
+            topic = await bot.create_forum_topic(
+                chat_id=FORUM_CHAT_ID,
                 name=f"{user.first_name}"
             )
-            thread_id = topic.message_thread_id
-            user_topics[user.id] = thread_id
+            user_topics[user.id] = topic.message_thread_id
             save_state()
 
-        await context.bot.send_message(
+        thread_id = user_topics[user.id]
+
+        await bot.send_message(
             chat_id=FORUM_CHAT_ID,
             message_thread_id=thread_id,
-            text=f"💬 Сообщение от *{user.first_name}*:\n{text}",
-            parse_mode='Markdown'
-        )
-
-        await update.message.reply_text("💛 Сообщение отправлено администраторам!")
-
-    except Exception as e:
-        logging.error(f"Ошибка отправки: {e}")
-        await update.message.reply_text("⚠ Произошла ошибка при отправке сообщения.")
-
-# -------------------------
-# Админ → пользователь (команда /ban)
-# -------------------------
-async def reply_to_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if not update.message.is_topic_message:
-        return
-
-    thread_id = update.message.message_thread_id
-    text = update.message.text
-
-    user_id = next((u for u, t in user_topics.items() if t == thread_id), None)
-    if not user_id:
-        await update.message.reply_text("❌ Пользователь не найден.")
-        return
-
-    # команда /ban
-    if text.startswith("/ban"):
-        try:
-            await context.bot.ban_chat_member(FORUM_CHAT_ID, user_id)
-            await update.message.reply_text("🚫 Пользователь заблокирован.")
-        except Exception as e:
-            await update.message.reply_text(f"Ошибка бана: {e}")
-        return
-
-    # обычный ответ
-    try:
-        await context.bot.send_message(
-            chat_id=user_id,
-            text=f"✉ Ответ администратора:\n{text}",
+            text=f"📩 *Сообщение от {user.first_name}:*\n{text}",
             parse_mode="Markdown"
         )
-    except Forbidden:
-        await update.message.reply_text("❌ Пользователь заблокировал бота.")
 
-# -------------------------
-# Вебхук-хендлер для Render
-# -------------------------
-async def webhook_handler(request):
+        await update.message.reply_text("💌 Сообщение отправлено администратору!")
+
+    except Exception as e:
+        logging.error(f"Send error: {e}")
+        await update.message.reply_text("⚠ Произошла ошибка отправки")
+
+
+# ---------------- ADMIN → USER -----------------
+@app.post("/admin-reply")
+async def admin_reply(request: Request):
     data = await request.json()
-    await application.update_queue.put(Update.de_json(data, application.bot))
-    return web.Response(text="OK")
+    update = Update.de_json(data, bot)
+    message = update.message
 
-# -------------------------
-# Запуск
-# -------------------------
-async def main():
-    load_state()
+    if not message or not message.is_topic_message:
+        return {"ok": True}
 
-    global application
-    application = Application.builder().token(TOKEN).build()
+    text = message.text
+    thread_id = message.message_thread_id
 
-    application.add_handler(CommandHandler("start", start))
-    application.add_handler(MessageHandler(filters.Chat(FORUM_CHAT_ID) & filters.TEXT, reply_to_user))
-    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
+    user_id = next((uid for uid, tid in user_topics.items() if tid == thread_id), None)
 
-    app = web.Application()
-    app.router.add_post("/", webhook_handler)
+    if not user_id:
+        await bot.send_message(FORUM_CHAT_ID, "❌ Пользователь не найден.", message_thread_id=thread_id)
+        return {"ok": True}
 
-    # стартуем веб-сервер
-    await application.initialize()
-    await application.start()
-    runner = web.AppRunner(app)
-    await runner.setup()
+    try:
+        await bot.send_message(
+            chat_id=user_id,
+            text=f"💬 Ответ администратора:\n{text}"
+        )
+    except Exception as e:
+        await bot.send_message(
+            chat_id=FORUM_CHAT_ID,
+            message_thread_id=thread_id,
+            text="❌ Пользователь недоступен."
+        )
+        logging.error(e)
 
-    site = web.TCPSite(runner, "0.0.0.0", int(os.getenv("PORT", 10000)))
-    await site.start()
-
-    logging.info("Бот запущен и слушает вебхук...")
-
-    await application.updater.start_polling()
-    await application.updater.idle()
+    return {"ok": True}
 
 
-if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
+# ------------------- ROOT --------------------
+@app.get("/")
+def home():
+    return {"status": "running"}
