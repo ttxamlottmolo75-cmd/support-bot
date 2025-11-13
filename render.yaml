@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: support-bot
+    env: python
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+    buildCommand: |
+      apt-get update && apt-get install -y wkhtmltopdf python3-imgkit
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: python bot.py
+services:
+  - type: web
+    name: support-bot
+    env: python
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+    buildCommand: |
+      apt-get update && apt-get install -y wkhtmltopdf python3-imgkit
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: python bot.py
+
