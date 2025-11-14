@@ -7,7 +7,7 @@ from telegram.ext import (
     ApplicationBuilder, CommandHandler, MessageHandler,
     filters, ContextTypes
 )
-from telegram.error import Forbidden
+from telegram.error import Forbidden, BadRequest
 
 # ======= НАСТРОЙКИ =======
 TOKEN = os.getenv("TOKEN")
@@ -19,8 +19,8 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-user_topics = {}      # user_id -> thread_id
-last_active = {}      # user_id -> datetime
+user_topics = {}
+last_active = {}
 
 # ======= СОХРАНЕНИЕ =======
 def save_state():
@@ -37,63 +37,74 @@ def load_state():
 # ======= /start =======
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.message.from_user
+
+    # Ответ юзеру
     await update.message.reply_text(
         "Приветик, солнышко 🌤\n"
         "Я рядом. Просто напиши мне, и я передам твоё сообщение 💛"
     )
-    # создаём тему заранее
-    topic = await context.bot.create_forum_topic(
-        FORUM_CHAT_ID,
-        name=f"{user.first_name}"
-    )
-    user_topics[user.id] = topic.message_thread_id
-    save_state()
-    logging.info(f"Создана тема для {user.id}: {topic.message_thread_id}")
 
-# ======= ПОЛУЧЕНИЕ СООБЩЕНИЙ от юзера =======
+    # Создаем тему
+    try:
+        topic = await context.bot.create_forum_topic(
+            FORUM_CHAT_ID,
+            name=f"{user.first_name}"
+        )
+        user_topics[user.id] = topic.message_thread_id
+        save_state()
+        logging.info(f"🔵 Создана тема для {user.id}")
+
+    except BadRequest:
+        # Тема уже была создана
+        logging.info(f"ℹ️ Тема уже существует для {user.id}")
+
+# ======= ПОЛУЧЕНИЕ СООБЩЕНИЙ =======
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.message.from_user
     text = update.message.text
+
     last_active[user.id] = datetime.now()
 
-    try:
-        # если темы нет → создаём
-        if user.id not in user_topics:
+    # если нет темы → создать
+    if user.id not in user_topics:
+        try:
             topic = await context.bot.create_forum_topic(
                 FORUM_CHAT_ID,
                 name=f"{user.first_name}"
             )
             user_topics[user.id] = topic.message_thread_id
             save_state()
+        except Exception as e:
+            logging.error(f"Ошибка создания темы: {e}")
 
-        thread_id = user_topics[user.id]
+    thread_id = user_topics.get(user.id)
 
-        # отправляем в тему
+    # отправка сообщения админу
+    try:
         await context.bot.send_message(
             chat_id=FORUM_CHAT_ID,
             message_thread_id=thread_id,
             text=f"✨ Сообщение от {user.first_name}:\n{text}"
         )
-
         await update.message.reply_text("💌 Сообщение отправлено администраторам!")
 
     except Forbidden:
         await update.message.reply_text(
-            "⚠️ Я не могу написать тебе первым.\n"
-            "Напиши /start ещё раз, чтобы включить сообщения."
+            "⚠️ Я не могу ответить тебе.\n"
+            "Пожалуйста, нажми /start ещё раз 💛"
         )
 
     except Exception as e:
-        logging.error(f"Ошибка: {e}")
+        logging.error(f"Ошибка при отправке: {e}")
         await update.message.reply_text("⚠️ Ошибка при отправке.")
 
-# ======= АДМИН отвечает =======
+# ======= АДМИН ОТВЕЧАЕТ =======
 async def reply_to_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not update.message.is_topic_message:
         return
 
-    text = update.message.text
     thread_id = update.message.message_thread_id
+    text = update.message.text
 
     user_id = next((u for u, t in user_topics.items() if t == thread_id), None)
 
